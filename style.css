@@ -50,6 +50,9 @@ p:hover {
     font-size: 130%;
 }
 
+nav.container-fluid {
+    background-color: #333240;
+}
 
 .container-fluid {
     border-radius:3px;
