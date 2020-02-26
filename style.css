@@ -55,6 +55,12 @@ nav.container-fluid {
     background-color: #0f1114; 
 
 }
+
+.container-fluid {
+    border-radius:3px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
 .buffer {
     height: 01rem;;
 }
