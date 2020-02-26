@@ -1,18 +1,12 @@
 html, body {
     width: 100%;
     height: 100%;
-    font-family: 'Lora', sans-serif ;
-    background-color: rgb(49, 21, 44); /*fall back background*/
+    font-family: 'Lora', sans-serif;
     /* background-image: url('header.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center; */
-    background: url('header5.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   
+       
 }
 
 h1 {
@@ -25,20 +19,41 @@ hr {
     max-width: 54px;
 }
 footer {
-    padding: 50px 0;  
+    padding: 05px 0;
+    border-radius: 02px;
+    background-color:  #262727;   
 }
 
 a {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color:#f5bcbc;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
-    
 }
 a:hover {
     color:#e78080;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 85%;
+}
+
+p {
+    font-size: 1.2rem;
+    color:rgb(235, 203, 203);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+       
+}
+p:hover {
+    color:#ffa2a2;
+    font-size: 130%;
+}
+
+
+nav.container-fluid {
+    border-radius: 02px;
+    background-color: #0f1114; 
+
 }
 .buffer {
     height: 01rem;;
@@ -58,9 +73,25 @@ a:hover {
     font-size: 0.8rem;
 }
 .btn-outline-secondary:hover {
-    border-width: 4px;
+    border-width: 3px;
     background-color: #f5bcbc;
     border-color: #f5bcbc;
+    cursor:pointer;
 } 
 
+.main-content {
+    background: url('header5.jpg') no-repeat center center scroll; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav-item {
+    padding-top: 1rem;
+}
+
+div.logo{
+    padding-right: auto;
+}
 
