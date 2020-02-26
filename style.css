@@ -24,7 +24,22 @@ hr {
     border: 1.5px solid #ea7979;
     max-width: 54px;
 }
+footer {
+    padding: 50px 0;  
+}
 
+a {
+    font-size: 1.2rem;
+    color:#f5bcbc;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    
+}
+a:hover {
+    color:#e78080;
+    text-decoration: none;
+    font-size: 150%;
+}
 .buffer {
     height: 01rem;;
 }
@@ -47,3 +62,5 @@ hr {
     background-color: #f5bcbc;
     border-color: #f5bcbc;
 } 
+
+
