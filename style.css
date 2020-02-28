@@ -21,13 +21,13 @@ footer {
     background-color:  #262727;   
 }
 
-a {
+a.link {
     font-size: 0.8rem;
     color:#f5bcbc;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
-a:hover {
+a.link:hover {
     color:#e78080;
     text-decoration: none;
     font-size: 85%;
