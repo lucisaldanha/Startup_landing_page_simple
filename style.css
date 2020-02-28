@@ -46,6 +46,9 @@ p:hover {
     padding: 0px 20px;
     padding-top: 1rem;
 }
+.nav-item > a {
+    text-decoration: none;
+}
 
 /* cover styling */
 h1 {
