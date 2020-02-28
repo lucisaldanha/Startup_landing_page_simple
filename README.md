@@ -12,3 +12,4 @@ Add responsive design to all components to work on mobile devices using Bootstra
 Use dropdwons menu on Nav bar in smaller screens, and maybe on Responsive behaviors 
 Check out Navbar Components on Bootstrap on Nav bar brand section.
 Add a Logo to nav bar.
+Update website sections into "site header", 'site_content", which now are cover content and footer. Footer can be placed insite site_content. 
