@@ -54,11 +54,33 @@ p:hover {
 h1 {
     font-size: 2.5rem;
     color:#bd21308c;
+   
+}
+
+.special-effect {
+    -webkit-filter: brightness(3);
+    filter: brightness(3);
+    -webkit-filter: drop-shadow(16px 16px 10px rgba(67, 162, 224, 0.9));
+    filter: drop-shadow(16px 16px 10px rgba(67, 162, 224, 0.9));
+
+}
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: rgb(190, 58, 216);}
+    50%  {color: rgb(71, 56, 204);}
+    100% {color: green;}
 }
 
 hr {
     border: 1.5px solid #ea7979;
     max-width: 54px;
+    animation-name: exampleTwo;
+}
+@keyframes exampleTwo {
+    0%   {border-color: red;}
+    25%  {border-color: rgb(190, 58, 216);}
+    50%  {border-color: blue;}
+    100% {border-color: green;}
 }
 
 .main-content {
@@ -83,16 +105,23 @@ hr {
     text-transform: uppercase;
     background-color: #ea7979;
     border-color: #ea7979;
-    color :whitesmoke;
-    font-size: 0.8rem;
+    color : #e4c7c7;
+    font-size: 0.7rem;
     padding: 1rem 2rem;
+}
+@keyframes exampleThree {
+    0%   {color: #f8cfda;}
+    25%  {color: rgba(137, 9, 163, 0.788);}
+    50%  {color: blue;}
+    100% {color: rgb(27, 68, 27);}
 }
 
 .btn-outline-secondary:hover {
     border-width: 3px;
     background-color: #f5bcbc;
     border-color: #f5bcbc;
-    cursor:pointer;
+    font-size: 0.9rem;
+    cursor: pointer;
 } 
 
 /* footer styling */
@@ -113,4 +142,21 @@ a.link:hover {
     color:#e78080;
     text-decoration: none;
     font-size: 85%;
+}
+
+/* animation styling for changing color */
+
+/* .color-changes {
+    animation: hue 30s infinite linear;
+    animation-name: example;
+}
+
+.color-changes-line {
+    animation: hue 30s infinite linear;
+    animation-name: exampleTwo;
+} */
+
+.color-changes-button {
+    animation: hue 30s infinite linear;
+    animation-name: exampleThree;
 }
