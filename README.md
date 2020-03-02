@@ -23,7 +23,9 @@ All <a> tags links are functional.
 - Add responsive design to all components to work on mobile devices using Bootstrap. Page should be responsive and change when in smaller devices, maybe adding a media style, to change cover dimensions and also nav bar.
 - Use dropdwons menu on Nav bar in smaller screens, and maybe on Responsive behaviors.
 - Check out Navbar Components on Bootstrap on Nav bar brand section.
-- Add a Logo to nav bar.
+- Add a Logo to nav bar, fix Background styling.
+- Change Nav items, for home, about, services, contact us.
+
 
 
 To be defined later.
