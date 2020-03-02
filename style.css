@@ -43,7 +43,16 @@ div .logo {
 }
 
 a > .logo {
-    background-image: radial-gradient(circle, #ecdddd, rgb(226, 226, 206), #e0eae0);
+    -webkit-box-shadow: 37px 4px 147px 6px rgba(189,49,189,0.67);
+    -moz-box-shadow: 37px 4px 147px 6px rgba(189,49,189,0.67);
+    box-shadow: 37px 4px 147px 6px rgba(189,49,189,0.67);
+    background-color: #b6abb8; /*Fall back background color.*/
+    background: url("http://api.thumbr.it/whitenoise-361x370.png?background=9887a1ff&noise=807680&density=29&opacity=30");
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px solid #e3c1e3;
+    margin-bottom: 10px;
 }
 
 .nav-item {
@@ -161,6 +170,6 @@ a.link:hover {
 } */
 
 .color-changes-button {
-    animation: hue 30s infinite linear;
+    animation: hue 15s infinite linear;
     animation-name: exampleThree;
 }
