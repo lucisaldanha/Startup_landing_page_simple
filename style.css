@@ -38,8 +38,12 @@ p:hover {
     font-size: 130%;
 }
 
-.logo {
+div .logo {
     margin-right: auto;
+}
+
+a > .logo {
+    background-image: radial-gradient(circle, #ecdddd, rgb(226, 226, 206), #e0eae0);
 }
 
 .nav-item {
@@ -50,7 +54,7 @@ p:hover {
     text-decoration: none;
 }
 
-/* cover styling */
+/* Header styling */
 h1 {
     font-size: 2.5rem;
     color:#bd21308c;
