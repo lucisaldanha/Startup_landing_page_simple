@@ -1,0 +1,19 @@
+{
+  "name": "startup_landing_page_simple",
+  "version": "1.0.0",
+  "description": "In Construction...",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusalga/Startup_landing_page_simple.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lusalga/Startup_landing_page_simple/issues"
+  },
+  "homepage": "https://github.com/lusalga/Startup_landing_page_simple#readme"
+}
