@@ -97,7 +97,7 @@ hr {
 }
 
 .main-content {
-    background: url('header5.jpg') no-repeat center center scroll; 
+    background: url('./images/header5.jpg') no-repeat center center scroll; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -159,7 +159,7 @@ a.link:hover {
 
 /* animation styling for changing color */
 
-/* .color-changes {
+/* .color-changes-heading {
     animation: hue 30s infinite linear;
     animation-name: example;
 }
